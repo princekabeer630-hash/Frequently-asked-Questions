@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Simple FAQ | devChallenges.io</title>
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+
+      @media (min-width: 768px) {
+    .faq-header {
+        padding: 80px 20px; /* More white space on desktop */
+    }
+
+    .faq-header h1 {
+        font-size: 2.5rem; /* Larger text on desktop */
+    }
+
+    .faq-item h2 {
+        font-size: 2rem;
+    }
+}
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body{
+        background-color: #ffffff;
+        color: #333;
+        line-height: 1.6;
+      }
+      .faq-question{
+        background-color: #f9f9fb;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      .faq-question h1{
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 10px;
+        
+      }
+      .faq-question p{
+        font-size: 1.1rem;
+        color: #666;
+      }
+      .container{
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding:  20px;
+      }
+      .first-section{
+        margin-bottom: 20px;
+      }
+      .first-section h2{
+        font-size: 1.8rem;
+        margin-bottom: 20px;
+        font-weight: 600;
+      }
+      .first-section p{
+       
+        margin-bottom: 20px;
+      }
+      ol , ul {
+       
+        margin-left: 20px;
+        margin-bottom: 20px;
+      }
+      li{
+        margin-bottom: 15px;
+      }
+      .bullet-list{
+        list-style-type: disc;
+      }
+      a{
+        color: #4a90e2;
+        text-decoration: none;
+      }
+      a:hover{
+        text-decoration: underline;
+      }
+      .breaker{
+        border: none;
+        border-top: 1px solid #eee;
+        margin: 40px 0;
+      }
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="faq-question">
+    <h1>Frequently Asked Questions</h1>
+    <p>Brose through the most Frequently asked questions</p>
+    </header>
+   
+    <main class="container">
+          <section class="first-section">
+              <h2>How can I track my order?</h2>
+              <p>You can track your order using the following steps:</p>
+              <ol>
+                  <li>Go to the Order <a href="#">Tracking page.</a></li>
+                  <li>Enter your order number and email address.</li>
+                  <li>Click on the Track Order button to view the current status of your shipment.</li>
+              </ol>
+              <p>If you encounter any issues,please visit our <a href="#">Help Center.</a></p>
+          </section>
+          <hr class="breaker">
+          <section class="first-section">
+              <h2>What is your return policy?</h2>
+              <p>We offer a 30-day return policy on most items.Here are some key points:</p>
+              <ul>
+                <li><strong>Items must be in original condition:</strong>Unworn, unused, and unwashed.</li>
+                <li><strong>Include original condition: All items should be returned with their <br>
+                  original packaging and tags</strong>
+                </li>
+                <li><strong>Proof of purchase: A recept or proof of purchase is required.</strong></li>
+              </ul>
+              <p>for more detailed information, read our full <a href="#">Return policy.</a></p>
+
+          </section>
+      </main>
+    
+    <div class="author-info">
+      Coded by <a href="#">Papan Kumar</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>
